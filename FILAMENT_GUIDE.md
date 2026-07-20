@@ -1,6 +1,6 @@
 # 3D Printing Material Guide
 
-A practical reference to common FDM 3D printing filaments: recommended print settings, physical properties, strengths, watch-outs and typical uses. From easy PLA to high-performance PEEK.
+A practical reference to 24 common FDM 3D printing filaments: recommended print settings, physical properties, strengths, watch-outs and typical uses. From easy PLA to high-performance PEEK.
 
 ## How to read this
 
@@ -66,6 +66,8 @@ A practical reference to common FDM 3D printing filaments: recommended print set
 - Brittle over time, poor outdoors
 - Not for load-bearing or heat
 
+**Source:** [Prusament PLA technical data sheet](https://prusament.com/wp-content/uploads/2022/10/PLA_Prusament_TDS_2021_10_EN.pdf)
+
 ---
 
 ### PLA-CF
@@ -94,6 +96,8 @@ A practical reference to common FDM 3D printing filaments: recommended print set
 - Needs a hardened steel nozzle
 - Same poor heat resistance as PLA
 - Fibres make it more brittle, not tougher
+
+**Source:** [Bambu Lab PLA-CF filament guide](https://bambulab.com/en-us/filament/pla-cf)
 
 ---
 
@@ -124,6 +128,8 @@ A practical reference to common FDM 3D printing filaments: recommended print set
 - Softer detail on small features
 - Purely decorative, not functional
 
+**Source:** [Bambu Lab PLA usage guide (Silk variant)](https://wiki.bambulab.com/en/filament/pla)
+
 ---
 
 ### Matte PLA
@@ -153,6 +159,8 @@ A practical reference to common FDM 3D printing filaments: recommended print set
 - Same heat and outdoor limits as PLA
 - Not for functional loads
 
+**Source:** [Polymaker PolyTerra PLA (matte PLA)](https://polymaker.com/product/polyterra-pla/)
+
 ---
 
 ### Wood PLA
@@ -179,6 +187,8 @@ A practical reference to common FDM 3D printing filaments: recommended print set
 - Clogs small (0.4 mm) nozzles, so go 0.6 mm
 - Brittle and low strength
 - Colour varies with print temperature
+
+**Source:** [colorFabb woodFill technical data sheet](https://colorfabb.com/woodfill)
 
 ---
 
@@ -209,6 +219,8 @@ A practical reference to common FDM 3D printing filaments: recommended print set
 - Pricier than standard PLA
 - Not UV-stable for outdoors
 
+**Source:** [Polymaker PolyMax PLA (toughened PLA)](https://polymaker.com/product/polymax-pla/)
+
 ---
 
 ### PETG
@@ -237,6 +249,8 @@ A practical reference to common FDM 3D printing filaments: recommended print set
 - Stringy, so tune retraction
 - Absorbs moisture; dry before printing
 - Sticks a bit too well to some beds
+
+**Source:** [Prusament PETG](https://prusament.com/materials/prusament-petg/)
 
 ---
 
@@ -267,6 +281,8 @@ A practical reference to common FDM 3D printing filaments: recommended print set
 - Very sensitive to damp filament
 - Harder to get glassy surfaces
 
+**Source:** [3DXTech CarbonX PETG+CF](https://www.3dxtech.com/products/carbonx-petg-cf-1)
+
 ---
 
 ### ABS
@@ -295,6 +311,8 @@ A practical reference to common FDM 3D printing filaments: recommended print set
 - Warps badly without an enclosure
 - Styrene fumes, so ventilate well
 - Not UV-stable outdoors (use ASA)
+
+**Source:** [Polymaker PolyLite ABS](https://polymaker.com/product/polylite-abs/)
 
 ---
 
@@ -325,6 +343,8 @@ A practical reference to common FDM 3D printing filaments: recommended print set
 - Fumes, so ventilate the workspace
 - Fussier than PETG to dial in
 
+**Source:** [Prusament ASA technical data sheet](https://prusament.com/wp-content/uploads/2022/10/ASA_Prusament_TDS_2022_16_EN.pdf)
+
 ---
 
 ### ASA-CF
@@ -353,6 +373,8 @@ A practical reference to common FDM 3D printing filaments: recommended print set
 - Needs an enclosure and hardened nozzle
 - Fumes on printing
 - More brittle than plain ASA
+
+**Source:** [Bambu Lab ASA-CF technical data sheet](https://wiki.bambulab.com/filament-acc/asacf-pahtcf/bambus_asa-cf_technical_data_sheet.pdf)
 
 ---
 
@@ -383,6 +405,8 @@ A practical reference to common FDM 3D printing filaments: recommended print set
 - Bowden setups struggle, so prefer direct drive
 - Stringy; dry the filament first
 
+**Source:** [Polymaker PolyFlex TPU95](https://polymaker.com/product/polyflex-tpu95/)
+
 ---
 
 ### TPE
@@ -411,6 +435,8 @@ A practical reference to common FDM 3D printing filaments: recommended print set
 - Hardest flexible to feed reliably
 - Very slow printing
 - Direct drive essentially required
+
+**Source:** [NinjaTek Chinchilla TPE technical data sheet](https://ninjatek.com/wp-content/uploads/Chinchilla-TDS.pdf)
 
 ---
 
@@ -441,6 +467,8 @@ A practical reference to common FDM 3D printing filaments: recommended print set
 - Warps; wants an enclosure
 - Poor moisture resistance in use
 
+**Source:** [Polymaker PolyMide CoPA (nylon)](https://polymaker.com/product/polymide-copa/)
+
 ---
 
 ### PA-CF (Nylon-CF)
@@ -469,6 +497,8 @@ A practical reference to common FDM 3D printing filaments: recommended print set
 - Needs a hardened nozzle and high temps
 - Must be kept dry
 - One of the harder materials to master
+
+**Source:** [Prusament PA11 Nylon Carbon Fiber](https://prusament.com/materials/prusament-pa11-nylon-carbon-fiber/)
 
 ---
 
@@ -499,6 +529,8 @@ A practical reference to common FDM 3D printing filaments: recommended print set
 - Warps aggressively
 - Must be dried before printing
 
+**Source:** [Prusament PC Blend](https://prusament.com/materials/prusament-pc-blend/)
+
 ---
 
 ### PC-ABS
@@ -528,6 +560,8 @@ A practical reference to common FDM 3D printing filaments: recommended print set
 - Warps and fumes like ABS
 - Dry before printing
 
+**Source:** [3DXTech 3DXMAX PC-ABS](https://www.3dxtech.com/products/3dxmaxa-r-pc-abs)
+
 ---
 
 ### HIPS
@@ -554,6 +588,8 @@ A practical reference to common FDM 3D printing filaments: recommended print set
 - Needs an enclosure like ABS
 - Weak on its own
 - Limonene handling and ventilation
+
+**Source:** [MatterHackers HIPS](https://www.matterhackers.com/store/3d-printer-filament/hips-175mm-1kg)
 
 ---
 
@@ -582,6 +618,8 @@ A practical reference to common FDM 3D printing filaments: recommended print set
 - Needs a second extruder to be useful
 - Expensive for what it is
 
+**Source:** [Polymaker PolyDissolve S1 technical data sheet](https://polymaker.com/wp-content/tech-docs/PolyDissolve_S1_PIS_EN_V1.1.pdf)
+
 ---
 
 ### PVB
@@ -608,6 +646,8 @@ A practical reference to common FDM 3D printing filaments: recommended print set
 - Absorbs moisture; keep it dry
 - Modest strength and heat resistance
 - Smoothing needs IPA and care
+
+**Source:** [Prusament PVB](https://prusament.com/materials/prusament-pvb/)
 
 ---
 
@@ -638,6 +678,8 @@ A practical reference to common FDM 3D printing filaments: recommended print set
 - Warps badly; needs a PP-specific surface
 - Fussy to dial in
 
+**Source:** [FormFutura Centaur PP](https://www.formfutura.com/centaur-pp)
+
 ---
 
 ### PET-CF
@@ -666,6 +708,8 @@ A practical reference to common FDM 3D printing filaments: recommended print set
 - Needs high temps, enclosure and dry box
 - Hardened nozzle required
 - Unforgiving for beginners
+
+**Source:** [Bambu Lab PET-CF technical data sheet](https://wiki.bambulab.com/filament-acc/petcf-ppacf/07689de83afd4cc480f136c7697e6de3.pdf)
 
 ---
 
@@ -696,6 +740,8 @@ A practical reference to common FDM 3D printing filaments: recommended print set
 - Expensive and specialist
 - Very demanding to print
 
+**Source:** [Bambu Lab PPS-CF technical data sheet](https://wiki.bambulab.com/filament-acc/absgf-pa6gf/26f4f40359484040a8660c9150a90fc0.pdf)
+
 ---
 
 ### PEEK
@@ -725,6 +771,8 @@ A practical reference to common FDM 3D printing filaments: recommended print set
 - Very expensive
 - Extremely difficult to print well
 
+**Source:** [3DXTech ThermaX PEEK](https://www.3dxtech.com/products/thermax-peek-1)
+
 ---
 
 ## Sources & references
@@ -734,16 +782,27 @@ sheets and knowledge bases. They are typical, real-world starting points rather 
 from any single spec sheet, so a specific brand or spool may differ. Always defer to the datasheet
 printed on your own filament.
 
-Primary references:
+Each material above carries a **Source** link to a representative published datasheet for that
+material type. It is the reference that best matches the values shown, not a claim that every number
+was taken from that one document. Where a mainstream spool exists for a material we cite it directly
+(for example Prusament or Polymaker); for the more specialist materials we cite the vendor that
+publishes the clearest data (for example 3DXTech for PEEK and PC-ABS, or Bambu Lab for the
+carbon-filled grades).
 
-- **Prusa:** Prusament technical data sheets and the Prusa Knowledge Base material guides (https://prusament.com, https://help.prusa3d.com)
-- **Polymaker:** per-product technical data sheets (https://polymaker.com)
-- **Bambu Lab:** filament guides and the Bambu Lab Wiki (https://wiki.bambulab.com)
-- **Fillamentum:** product technical data sheets (https://fillamentum.com)
+Manufacturers and vendors referenced:
+
+- **Prusa / Prusament** (https://prusament.com, https://help.prusa3d.com)
+- **Polymaker** (https://polymaker.com)
+- **Bambu Lab** (https://wiki.bambulab.com)
+- **3DXTech** (https://www.3dxtech.com)
+- **colorFabb** (https://colorfabb.com)
+- **NinjaTek** (https://ninjatek.com)
+- **FormFutura** (https://www.formfutura.com)
+- **MatterHackers** (https://www.matterhackers.com)
 
 Property ratings (strength, heat, UV, and so on) are a relative 0-100 guide for comparing materials
 at a glance, not laboratory measurements. Print temperatures, bed temperatures, densities and
-glass-transition figures are drawn from the datasheets above.
+glass-transition figures are drawn from the datasheets linked above.
 
 ---
 
