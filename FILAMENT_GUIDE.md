@@ -727,4 +727,24 @@ A practical reference to 24 common FDM 3D printing filaments: recommended print 
 
 ---
 
+## Sources & references
+
+The figures here are compiled and cross-referenced from published manufacturer technical data
+sheets and knowledge bases. They are typical, real-world starting points rather than values copied
+from any single spec sheet, so a specific brand or spool may differ. Always defer to the datasheet
+printed on your own filament.
+
+Primary references:
+
+- **Prusa:** Prusament technical data sheets and the Prusa Knowledge Base material guides (https://prusament.com, https://help.prusa3d.com)
+- **Polymaker:** per-product technical data sheets (https://polymaker.com)
+- **Bambu Lab:** filament guides and the Bambu Lab Wiki (https://wiki.bambulab.com)
+- **Fillamentum:** product technical data sheets (https://fillamentum.com)
+
+Property ratings (strength, heat, UV, and so on) are a relative 0-100 guide for comparing materials
+at a glance, not laboratory measurements. Print temperatures, bed temperatures, densities and
+glass-transition figures are drawn from the datasheets above.
+
+---
+
 _Compiled by The 3D Printing Network (https://3dprintingsa.co.za). Print settings are starting points, not guarantees; verify against your filament's datasheet before printing._
