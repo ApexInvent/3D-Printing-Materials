@@ -1,6 +1,6 @@
 # 3D Printing Material Guide
 
-A practical reference to 24 common FDM 3D printing filaments: recommended print settings, physical properties, strengths, watch-outs and typical uses. From easy PLA to high-performance PEEK.
+A practical reference to common FDM 3D printing filaments: recommended print settings, physical properties, strengths, watch-outs and typical uses. From easy PLA to high-performance PEEK.
 
 ## How to read this
 
