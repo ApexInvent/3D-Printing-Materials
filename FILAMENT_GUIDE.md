@@ -1,6 +1,6 @@
 # 3D Printing Material Guide
 
-A practical reference to 24 common FDM 3D printing filaments: recommended print settings, physical properties, strengths, watch-outs and typical uses. From easy PLA to high-performance PEEK.
+A practical reference to 28 common FDM 3D printing filaments: recommended print settings, physical properties, strengths, watch-outs and typical uses. From easy PLA to high-performance PEEK.
 
 ## How to read this
 
@@ -33,6 +33,10 @@ A practical reference to 24 common FDM 3D printing filaments: recommended print 
 | PVA | Advanced | 190-220 °C | 45-60 °C | 30-60 mm/s | 1.23 g/cm³ | 45 °C | Amorphous |
 | PVB | Intermediate | 195-220 °C | 60-75 °C | 30-70 mm/s | 1.09 g/cm³ | 65 °C | Amorphous |
 | Polypropylene (PP) | Advanced | 220-250 °C | 85-100 °C | 30-70 mm/s | 0.9 g/cm³ | -10 °C | 160 °C |
+| PBT | Intermediate | 230-255 °C | 70-100 °C | 25-45 mm/s | 1.31 g/cm³ | 50 °C | 223 °C |
+| PBT-GF | Advanced | 240-265 °C | 70-100 °C | 30-50 mm/s | 1.45 g/cm³ | 55 °C | 223 °C |
+| PBT-CF | Advanced | 240-265 °C | 70-100 °C | 30-60 mm/s | 1.32 g/cm³ | 55 °C | 223 °C |
+| PC-PBT | Advanced | 260-285 °C | 100-115 °C | 30-60 mm/s | 1.22 g/cm³ | 140 °C | Amorphous |
 | PET-CF | Advanced | 260-290 °C | 80-100 °C | 30-60 mm/s | 1.3 g/cm³ | 80 °C | 255 °C |
 | PPS-CF | Advanced | 310-340 °C | 100-120 °C | 20-50 mm/s | 1.35 g/cm³ | 90 °C | 280 °C |
 | PEEK | Advanced | 360-450 °C | 120-160 °C | 20-40 mm/s | 1.3 g/cm³ | 143 °C | 343 °C |
@@ -50,7 +54,7 @@ A practical reference to 24 common FDM 3D printing filaments: recommended print 
 
 **Requirements:** Enclosure: No · Heated bed: No · Dry filament: No · Cooling fan: Yes · Warping: low
 
-**Ratings (0-100):** Strength 55 · Flexibility 12 · Impact 30 · Heat 20 · UV / weather 35 · Moisture 45 · Food-safe 55 · Low odour 92 · Ease 98
+**Ratings (0-100):** Strength 55 · Flexibility 12 · Impact 30 · Heat 20 · UV / weather 35 · Moisture 45 · Food-safe 45 · Low odour 92 · Ease 98
 
 **Tags:** beginner-friendly
 
@@ -637,6 +641,122 @@ A practical reference to 24 common FDM 3D printing filaments: recommended print 
 - Notoriously hard to stick to the bed
 - Warps badly; needs a PP-specific surface
 - Fussy to dial in
+
+---
+
+### PBT
+*Polybutylene terephthalate* · **Intermediate**
+
+> A tough engineering polyester that shrugs off fuels and oils and takes up almost no moisture, so parts hold their size in a humid workshop. It prints at ordinary temperatures without an enclosure, but it crystallises as it cools and gives up stiffness under load sooner than ABS.
+
+| Nozzle | Bed | Speed | Density | Glass transition | Melting point |
+|---|---|---|---|---|---|
+| 230-255 °C | 70-100 °C | 25-45 mm/s | 1.31 g/cm³ | 50 °C | 223 °C |
+
+**Requirements:** Enclosure: No · Heated bed: Yes · Dry filament: Yes · Cooling fan: No · Warping: medium
+
+**Ratings (0-100):** Strength 55 · Flexibility 34 · Impact 78 · Heat 45 · UV / weather 30 · Moisture 82 · Food-safe 12 · Low odour 74 · Ease 52
+
+**Tags:** engineering
+
+**Good for:** Snap-fit clips, latches and living hinges; Electrical housings and connector bodies; Parts washed in solvents, oils or fuels
+
+**Strengths:**
+- Shrugs off fuels, oils and most solvents
+- Takes up almost no moisture in service
+- Tough and ductile, so it flexes instead of cracking
+
+**Watch-outs:**
+- Softens under load well before ABS does
+- No UV stability unfilled, so it chalks outdoors
+- Crystallises as it cools, so first layers need care
+
+---
+
+### PBT-GF
+*Polybutylene terephthalate, glass-filled* · **Advanced**
+
+> PBT with chopped glass through it. The fibre takes stiffness and the load-bearing heat limit far past unfilled PBT and cuts shrinkage sharply, while keeping the fuel and oil resistance. It is abrasive, so a hardened nozzle stops being optional.
+
+| Nozzle | Bed | Speed | Density | Glass transition | Melting point |
+|---|---|---|---|---|---|
+| 240-265 °C | 70-100 °C | 30-50 mm/s | 1.45 g/cm³ | 55 °C | 223 °C |
+
+**Requirements:** Enclosure: Yes · Heated bed: Yes · Dry filament: Yes · Cooling fan: No · Warping: medium
+
+**Ratings (0-100):** Strength 80 · Flexibility 10 · Impact 55 · Heat 78 · UV / weather 32 · Moisture 82 · Food-safe 10 · Low odour 70 · Ease 34
+
+**Tags:** engineering
+
+**Good for:** Load-bearing brackets and mounts; Machine and agricultural equipment housings; Warm engine-bay and workshop parts
+
+**Strengths:**
+- Far stiffer and more heat-tolerant than unfilled PBT
+- Glass fibre cuts shrinkage, so parts hold tolerance
+- Keeps PBT's fuel, oil and solvent resistance
+
+**Watch-outs:**
+- Abrasive, so a hardened nozzle is not optional
+- Brittle in thin walls compared with unfilled PBT
+- Has to be dried or it breaks down in the hotend
+
+---
+
+### PBT-CF
+*Polybutylene terephthalate, carbon-filled* · **Advanced**
+
+> Carbon-filled PBT: the stiffest and most dimensionally stable grade of the family, with a matte finish that looks machined off the bed. It buys that with a hardened nozzle, a dryer and a slower print.
+
+| Nozzle | Bed | Speed | Density | Glass transition | Melting point |
+|---|---|---|---|---|---|
+| 240-265 °C | 70-100 °C | 30-60 mm/s | 1.32 g/cm³ | 55 °C | 223 °C |
+
+**Requirements:** Enclosure: Yes · Heated bed: Yes · Dry filament: Yes · Cooling fan: No · Warping: low
+
+**Ratings (0-100):** Strength 84 · Flexibility 10 · Impact 52 · Heat 80 · UV / weather 45 · Moisture 82 · Food-safe 10 · Low odour 68 · Ease 30
+
+**Tags:** engineering
+
+**Good for:** Drone frames and lightweight structural mounts; Automotive brackets and equipment housings; Jigs and fixtures that must hold a dimension
+
+**Strengths:**
+- Very stiff with almost no warp
+- Holds tolerance better than any other PBT grade
+- Matte, machined-looking finish straight off the bed
+
+**Watch-outs:**
+- Abrasive, so a hardened nozzle is required
+- Cracks rather than bends under a hard knock
+- Dearest of the PBT grades
+
+---
+
+### PC-PBT
+*Polycarbonate / PBT blend* · **Advanced**
+
+> Polycarbonate blended with PBT. It keeps most of PC's impact toughness and heat resistance, adds the fuel and oil resistance PC has never had, and warps noticeably less on the bed. An automotive blend rather than a general-purpose filament.
+
+| Nozzle | Bed | Speed | Density | Glass transition | Melting point |
+|---|---|---|---|---|---|
+| 260-285 °C | 100-115 °C | 30-60 mm/s | 1.22 g/cm³ | 140 °C | Amorphous |
+
+**Requirements:** Enclosure: Yes · Heated bed: Yes · Dry filament: Yes · Cooling fan: No · Warping: medium
+
+**Ratings (0-100):** Strength 78 · Flexibility 20 · Impact 88 · Heat 80 · UV / weather 55 · Moisture 72 · Food-safe 12 · Low odour 55 · Ease 36
+
+**Tags:** engineering
+
+**Good for:** Impact-resistant automotive and exterior parts; Tough housings that see heat and chemicals; Functional prototypes standing in for moulded parts
+
+**Strengths:**
+- Takes a hard knock, including in the cold
+- Far more chemical-resistant than plain polycarbonate
+- Warps noticeably less than PC for the same part
+
+**Watch-outs:**
+- Needs a hotend above 260 °C and an enclosure
+- Very hygroscopic, so it has to be printed dry
+- Costs more than the ASA that often does the job
 
 ---
 
